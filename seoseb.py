@@ -46,12 +46,11 @@ with st.container():
         st.markdown('This app lets you upload CLS error reports from your Google Search Console property and checks the Pagespeed API for the elements that get shiftet on the URLs.')
         
     with col_2:
-        st.subheader('Coming up mnext…')
+        st.subheader('Coming up next…')
         st.page_link('https://campixx2024.streamlit.app', label = 'Campixx 2024 - Demo App ', icon = '🎈' )
         st.info('further tools will be added')
 
-
-    st.markdown('---')
+    st.divider()
 
 with st.container():
     
