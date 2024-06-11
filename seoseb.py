@@ -44,7 +44,7 @@ with st.container():
         st.subheader('CLS Element Extractor')
         st.image('cls-extractor-screen.png', use_column_width=True, caption='Check which elements are shifted during page load.')
         st.markdown('This app lets you upload CLS error reports from your Google Search Console property and checks the Pagespeed API for the elements that get shiftet on the URLs.')
-        st.page_link('pages01_⚡_get-CLS-Elements.py', label = 'CLS Elements Extractor ', icon = '⚡' )
+        st.page_link('pages/01_⚡_get-CLS-Elements.py', label = 'CLS Elements Extractor ', icon = '⚡' )
         
     with col_2:
         st.subheader('Coming up next…')
