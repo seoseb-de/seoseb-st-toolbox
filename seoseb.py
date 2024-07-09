@@ -48,8 +48,9 @@ with st.container():
         
     with col_2:
         st.subheader('Campixx 2024 Demo')
-        st.page_link('https://campixx2024.streamlit.app', label = 'Campixx 2024 - Demo App ', icon = '🎈' )
+        st.image('seoseb-campixx2024-streamlit-demo-app.png', use_column_width=True, caption='Show some usecases for Streamlit in SEOs daily work.')
         st.markdown('This app was build for demonstration purposes during my Campixx 2024 talk on Streamlit and SEO usecases.')
+        st.page_link('https://campixx2024.streamlit.app', label = 'Campixx 2024 - Demo App ', icon = '🎈' )
 
     st.info('further tools will be added')
     st.divider()
