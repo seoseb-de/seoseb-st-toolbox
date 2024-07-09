@@ -47,10 +47,11 @@ with st.container():
         st.page_link('pages/01_⚡_get-CLS-Elements.py', label = 'CLS Elements Extractor ', icon = '⚡' )
         
     with col_2:
-        st.subheader('Coming up next…')
+        st.subheader('Campixx 2024 Demo')
         st.page_link('https://campixx2024.streamlit.app', label = 'Campixx 2024 - Demo App ', icon = '🎈' )
-        st.info('further tools will be added')
+        st.markdown('This app was build for demonstration purposes during my Campixx 2024 talk on Streamlit and SEO usecases.')
 
+    st.info('further tools will be added')
     st.divider()
 
 with st.container():
